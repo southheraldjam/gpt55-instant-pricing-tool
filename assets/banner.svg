@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="35%" stop-color="#0d1428"/>
+      <stop offset="70%" stop-color="#101b33"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.2" cy="0.3" r="0.5">
+      <stop offset="0%" stop-color="#2d6cdf" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#2d6cdf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.85" cy="0.7" r="0.45">
+      <stop offset="0%" stop-color="#0fbf8f" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0fbf8f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2d6cdf" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2d6cdf" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2d6cdf" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#glow1)"/>
+  <rect width="1200" height="360" fill="url(#glow2)"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="150" cy="80" r="120" fill="none" stroke="#2d6cdf" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="150" cy="80" r="200" fill="none" stroke="#2d6cdf" stroke-opacity="0.05" stroke-width="1"/>
+  <circle cx="1050" cy="280" r="140" fill="none" stroke="#0fbf8f" stroke-opacity="0.07" stroke-width="1"/>
+  <circle cx="1050" cy="280" r="220" fill="none" stroke="#0fbf8f" stroke-opacity="0.04" stroke-width="1"/>
+
+  <line x1="100" y1="45" x2="1100" y2="45" stroke="url(#line)" stroke-opacity="0.4" stroke-width="1"/>
+  <line x1="80" y1="315" x2="1120" y2="315" stroke="url(#line)" stroke-opacity="0.4" stroke-width="1"/>
+
+  <path d="M0 200 Q 300 180 600 210 T 1200 190" fill="none" stroke="#2d6cdf" stroke-opacity="0.06" stroke-width="1"/>
+  <path d="M0 240 Q 400 260 800 230 T 1200 250" fill="none" stroke="#0fbf8f" stroke-opacity="0.05" stroke-width="1"/>
+
+  <circle cx="200" cy="300" r="3" fill="#2d6cdf" fill-opacity="0.2"/>
+  <circle cx="350" cy="120" r="2" fill="#2d6cdf" fill-opacity="0.15"/>
+  <circle cx="900" cy="90" r="2.5" fill="#0fbf8f" fill-opacity="0.15"/>
+  <circle cx="1000" cy="200" r="2" fill="#2d6cdf" fill-opacity="0.2"/>
+  <circle cx="700" cy="310" r="1.5" fill="#0fbf8f" fill-opacity="0.12"/>
+  <circle cx="550" cy="70" r="2" fill="#2d6cdf" fill-opacity="0.12"/>
+
+  <!-- Headline -->
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="68.0" font-weight="700" fill="#ffffff">
+    <tspan x="600" dy="0">GPT 5.5 Instant Premium</tspan>
+    <tspan x="600" dy="72">Tariff</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="265" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" font-weight="400" fill="#c9d1d9">
+    <tspan x="600" dy="0">GPT-5.5 pricing helper for developers and API users —</tspan>
+    <tspan x="600" dy="30">compare instant and premium tariff tiers side-by-side.</tspan>
+  </text>
+</svg>
